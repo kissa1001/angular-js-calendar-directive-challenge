@@ -1,1 +1,73 @@
 /* your css code goes here */
+body {
+  margin: 1em;
+  color: #fff;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+}
+
+header { 
+  background: #B24592; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #B24592 , #F15F79); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #B24592 , #F15F79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  height: 50px;
+  width: 97.25%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 2px 2px #37474F; 
+}
+
+h1 { 
+  font-size: 1em; 
+  display: inline; 
+  margin-left: 10px; 
+}
+
+h2 { 
+  display: inline; 
+  text-align: right; 
+  position: absolute; 
+  right: 55px; 
+  top: -5px; 
+  font-size: 40px; 
+}
+
+select { 
+  width: 7em; 
+  font-size: 1em; 
+  border: 1px solid gray; 
+  background: white; 
+  color: #263238; 
+  height: 2em;  
+  margin-top: 10px; 
+}
+
+.calendarDays {
+  text-align: left;
+  border: 2px solid #ECEFF1;
+  display: inline-block;
+  width: 13%;
+  min-height: 8em;
+  padding: 0.5em;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#calendarWrap {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.individualDays {
+  height: 6em;
+  font-size: 20px;
+}
+
+.extraDays {
+  background: rgba(225,225,225,0.3);
+  color: white;
+}
